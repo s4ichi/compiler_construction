@@ -1,0 +1,448 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 13 sources: invalidated sources (13) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 13 Java sources to /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/dk/nx5jjjj95bl3y7wv07cz7tj40000gn/T/sbt_dd379e6b/argfile[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:9: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ASTree;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:10: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ASTLeaf;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:11: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ASTList;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java:3: エラー: パッケージjavassist.gluonjは存在しません[0m
+[0m[[31merror[0m] [0mimport javassist.gluonj.Reviser;[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java:4: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.*;[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java:3: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ParameterList;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java:4: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.Arguments;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java:5: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.DefStmnt;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:5: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.*;[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java:6: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m@Reviser public class ArrayParser extends FuncParser {[0m
+[0m[[31merror[0m] [0m ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス Reviser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:291: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public Parser(Class<? extends ASTree> clazz) {[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:298: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public ASTree parse(Lexer lexer) throws ParseException {[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:314: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public static Parser rule(Class<? extends ASTree> clazz) {[0m
+[0m[[31merror[0m] [0m                                              ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:321: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public Parser reset(Class<? extends ASTree> clazz) {[0m
+[0m[[31merror[0m] [0m                                        ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:329: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public Parser number(Class<? extends ASTLeaf> clazz) {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:336: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public Parser identifier(Class<? extends ASTLeaf> clazz,[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:345: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public Parser string(Class<? extends ASTLeaf> clazz) {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:383: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public Parser expression(Class<? extends ASTree> clazz, Parser subexp,[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:50: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public ASTree parse(Lexer lexer) throws ParseException {[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:15: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected abstract void parse(Lexer lexer, List<ASTree> res)[0m
+[0m[[31merror[0m] [0m                                                        ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Element[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:236: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected abstract ASTree make0(Object arg) throws Exception;[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Factory[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:237: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected ASTree make(Object arg) {[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Factory[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:246: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected static Factory getForASTList(Class<? extends ASTree> clazz) {[0m
+[0m[[31merror[0m] [0m                                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Factory[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:260: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected static Factory get(Class<? extends ASTree> clazz,[0m
+[0m[[31merror[0m] [0m                                                     ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Factory[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java:3: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ClassBody;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java:4: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ClassStmnt;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java:5: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.Dot;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java:3: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.Fun;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:3: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.*;[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:23: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void parse(Lexer lexer, List<ASTree> res)[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Tree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:36: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void parse(Lexer lexer, List<ASTree> res)[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス OrTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:67: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void parse(Lexer lexer, List<ASTree> res)[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Repeat[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:85: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected AToken(Class<? extends ASTLeaf> type) {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス AToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:90: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void parse(Lexer lexer, List<ASTree> res)[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス AToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:109: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected IdToken(Class<? extends ASTLeaf> type, HashSet<String> r) {[0m
+[0m[[31merror[0m] [0m                                          ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス IdToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:119: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected NumToken(Class<? extends ASTLeaf> type) { super(type); }[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス NumToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:124: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected StrToken(Class<? extends ASTLeaf> type) { super(type); }[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス StrToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:131: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void parse(Lexer lexer, List<ASTree> res)[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Leaf[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:147: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void find(List<ASTree> res, Token t) {[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Leaf[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:163: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected void find(List<ASTree> res, Token t) {}[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Skip[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:186: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        protected Expr(Class<? extends ASTree> clazz, Parser exp,[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:193: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        public void parse(Lexer lexer, List<ASTree> res) throws ParseException {[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:201: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        private ASTree doShift(Lexer lexer, ASTree left, int prec)[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:201: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        private ASTree doShift(Lexer lexer, ASTree left, int prec)[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java:2: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.ASTree;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java:6: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    public StoneException(String m, ASTree t) {[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス StoneException[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java:3: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.*;[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:71: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                ASTree t = parser.parse(lexer);[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Repeat[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:72: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                if (t.getClass() != ASTList.class || t.numChildren() > 0)[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTList[0m
+[0m[[31merror[0m] [0m  場所: クラス Repeat[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:87: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                type = ASTLeaf.class;[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス AToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:95: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                ASTree leaf = factory.make(t);[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス AToken[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:148: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            res.add(new ASTLeaf(t));[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス Leaf[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:194: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            ASTree right = factor.parse(lexer);[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:204: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            ArrayList<ASTree> list = new ArrayList<ASTree>();[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:204: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            ArrayList<ASTree> list = new ArrayList<ASTree>();[0m
+[0m[[31merror[0m] [0m                                                   ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:206: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            list.add(new ASTLeaf(lexer.read()));[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTLeaf[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:207: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            ASTree right = factor.parse(lexer);[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Expr[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:250: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                    protected ASTree make0(Object arg) throws Exception {[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:251: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                        List<ASTree> results = (List<ASTree>)arg;[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:251: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                        List<ASTree> results = (List<ASTree>)arg;[0m
+[0m[[31merror[0m] [0m                                                     ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:255: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                            return new ASTList(results);[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTList[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:269: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                    protected ASTree make0(Object arg) throws Exception {[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:270: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                        return (ASTree)m.invoke(null, arg);[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:275: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                final Constructor<? extends ASTree> c[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Factory[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:278: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                    protected ASTree make0(Object arg) throws Exception {[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  シンボル: クラス ASTree[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:299: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        ArrayList<ASTree> results = new ArrayList<ASTree>();[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:299: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        ArrayList<ASTree> results = new ArrayList<ASTree>();[0m
+[0m[[31merror[0m] [0m                                                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ASTree[0m
+[0m[[31merror[0m] [0m  場所: クラス Parser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:13: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            rule().number(NumberLiteral.class),[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス NumberLiteral[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:14: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            rule().identifier(Name.class, reserved),[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス Name[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:15: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            rule().string(StringLiteral.class));[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス StringLiteral[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:11: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser primary = rule(PrimaryExpr.class)[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス PrimaryExpr[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:16: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser factor = rule().or(rule(NegativeExpr.class).sep("-").ast(primary),[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス NegativeExpr[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:18: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser expr = expr0.expression(BinaryExpr.class, factor, operators);[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス BinaryExpr[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:21: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser block = rule(BlockStmnt.class)[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス BlockStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:25: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser simple = rule(PrimaryExpr.class).ast(expr);[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス PrimaryExpr[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:27: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            rule(IfStmnt.class).sep("if").ast(expr).ast(block)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス IfStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:29: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m            rule(WhileStmnt.class).sep("while").ast(expr).ast(block),[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス WhileStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java:32: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser program = rule().or(statement, rule(NullStmnt.class))[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス NullStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス BasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java:9: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser params = rule(ParameterList.class)[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ParameterList[0m
+[0m[[31merror[0m] [0m  場所: クラス FuncParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java:12: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser def = rule(DefStmnt.class)[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス DefStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス FuncParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java:14: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser args = rule(Arguments.class)[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス Arguments[0m
+[0m[[31merror[0m] [0m  場所: クラス FuncParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java:7: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser elements = rule(ArrayLiteral.class)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ArrayLiteral[0m
+[0m[[31merror[0m] [0m  場所: クラス ArrayParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java:12: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        postfix.insertChoice(rule(ArrayRef.class).sep("[").ast(expr).sep("]"));[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ArrayRef[0m
+[0m[[31merror[0m] [0m  場所: クラス ArrayParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java:7: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        primary.insertChoice(rule(Fun.class)[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス Fun[0m
+[0m[[31merror[0m] [0m  場所: クラス ClosureParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java:9: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser class_body = rule(ClassBody.class).sep("{").option(member)[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ClassBody[0m
+[0m[[31merror[0m] [0m  場所: クラス ClassParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java:12: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser defclass = rule(ClassStmnt.class).sep("class").identifier(reserved)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス ClassStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス ClassParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java:16: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        postfix.insertChoice(rule(Dot.class).sep(".").identifier(reserved));[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス Dot[0m
+[0m[[31merror[0m] [0m  場所: クラス ClassParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:7: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        operators.add("^", 3, Operators.LEFT);[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  シンボル:   変数 Operators[0m
+[0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:11: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                                  .repeat(rule.sep("elsif").ast(expr).ast(block))[0m
+[0m[[31merror[0m] [0m                                          ^[0m
+[0m[[31merror[0m] [0m  シンボル:   変数 rule[0m
+[0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:10: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                                  rule(IfStmnt.class).sep("if").ast(expr).ast(block)[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス IfStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:13: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m                                  rule(WhileStmnt.class).sep("while").ast(expr).ast(block),[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス WhileStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java:6: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser typeTag = rule(TypeTag.class).sep(":").identifier(reserved);[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス TypeTag[0m
+[0m[[31merror[0m] [0m  場所: クラス TypedParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java:7: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser variable = rule(VarStmnt.class)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス VarStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス TypedParser[0m
+[0m[[31merror[0m] [0mエラー93個[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) javac returned nonzero exit code[0m

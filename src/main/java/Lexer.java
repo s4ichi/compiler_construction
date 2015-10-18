@@ -29,7 +29,7 @@ public class Lexer {
         if (fillQueue(i))
             return queue.get(i);
         else
-            return Token.EOF; 
+            return Token.EOF;
     }
     private boolean fillQueue(int i) throws ParseException {
         while (i >= queue.size())
@@ -112,7 +112,7 @@ public class Lexer {
     }
 
     protected static class IdToken extends Token {
-        private String text; 
+        private String text;
         protected IdToken(int line, String id) {
             super(line);
             text = id;
