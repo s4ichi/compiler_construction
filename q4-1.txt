@@ -1,0 +1,30 @@
+・1つ目
+> chap6.Runner
+if 1>0 {
+} else {
+}
+=> 0
+
+> chap6.MyRunner
+if 1>0 {
+} else {
+}
+=> nothing
+
+then-block内での結果が "0" と "nothing" で異なる。
+
+
+・2つ目
+> chap6.Runner
+if 1<0 {
+} else {
+}
+=> 0
+
+> chap6.MyRunner
+if 1<0 {
+} else {
+}
+=> nothing
+
+else-block内での結果が "0" と "nothing" で異なる。

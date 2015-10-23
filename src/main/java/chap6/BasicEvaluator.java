@@ -91,7 +91,7 @@ import java.util.List;
                     throw new StoneException("bad type", this);
         }
         protected Object computeNumber(Integer left, String op, Integer right) {
-            int a = left.intValue(); 
+            int a = left.intValue();
             int b = right.intValue();
             if (op.equals("+"))
                 return a + b;
