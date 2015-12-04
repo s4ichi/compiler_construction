@@ -1,23 +1,23 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/VariableParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/VariableParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 13 sources: invalidated sources (13) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 13 Java sources to /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Lexer.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/VariableParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/CodeDialog.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ArrayParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Token.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ParseException.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClosureParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/BasicParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/ClassParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/FuncParser.java, /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/StoneException.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 14 sources: invalidated sources (14) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 14 Java sources to /Users/everysick/Documents/program_impl/compiler_construction/src/main/java/target/scala-2.10/classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/dk/nx5jjjj95bl3y7wv07cz7tj40000gn/T/sbt_dd379e6b/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/dk/nx5jjjj95bl3y7wv07cz7tj40000gn/T/sbt_a7b87b52/argfile[0m
 [0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:9: エラー: パッケージstone.astは存在しません[0m
 [0m[[31merror[0m] [0mimport stone.ast.ASTree;[0m
 [0m[[31merror[0m] [0m                ^[0m
@@ -220,6 +220,9 @@
 [0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java:3: エラー: パッケージstone.astは存在しません[0m
 [0m[[31merror[0m] [0mimport stone.ast.*;[0m
 [0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/VariableParser.java:3: エラー: パッケージstone.astは存在しません[0m
+[0m[[31merror[0m] [0mimport stone.ast.*;[0m
+[0m[[31merror[0m] [0m^[0m
 [0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/Parser.java:71: エラー: シンボルを見つけられません[0m
 [0m[[31merror[0m] [0m                ASTree t = parser.parse(lexer);[0m
 [0m[[31merror[0m] [0m                ^[0m
@@ -413,25 +416,25 @@
 [0m[[31merror[0m] [0m                                  ^[0m
 [0m[[31merror[0m] [0m  シンボル:   クラス Dot[0m
 [0m[[31merror[0m] [0m  場所: クラス ClassParser[0m
-[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:7: エラー: シンボルを見つけられません[0m
-[0m[[31merror[0m] [0m        operators.add("^", 3, Operators.LEFT);[0m
-[0m[[31merror[0m] [0m                              ^[0m
-[0m[[31merror[0m] [0m  シンボル:   変数 Operators[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:13: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        block = rule(BlockStmnt.class).sep("{").option(statement0)[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス BlockStmnt[0m
 [0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
-[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:11: エラー: シンボルを見つけられません[0m
-[0m[[31merror[0m] [0m                                  .repeat(rule.sep("elsif").ast(expr).ast(block))[0m
-[0m[[31merror[0m] [0m                                          ^[0m
-[0m[[31merror[0m] [0m  シンボル:   変数 rule[0m
-[0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
-[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:10: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:17: エラー: シンボルを見つけられません[0m
 [0m[[31merror[0m] [0m                                  rule(IfStmnt.class).sep("if").ast(expr).ast(block)[0m
 [0m[[31merror[0m] [0m                                       ^[0m
 [0m[[31merror[0m] [0m  シンボル:   クラス IfStmnt[0m
 [0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
-[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:13: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:20: エラー: シンボルを見つけられません[0m
 [0m[[31merror[0m] [0m                                  rule(WhileStmnt.class).sep("while").ast(expr).ast(block),[0m
 [0m[[31merror[0m] [0m                                       ^[0m
 [0m[[31merror[0m] [0m  シンボル:   クラス WhileStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/MyBasicParser.java:24: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m        program = rule().or(statement, rule(NullStmnt.class)).sep(";", Token.EOL);[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス NullStmnt[0m
 [0m[[31merror[0m] [0m  場所: クラス MyBasicParser[0m
 [0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/TypedParser.java:6: エラー: シンボルを見つけられません[0m
 [0m[[31merror[0m] [0m    Parser typeTag = rule(TypeTag.class).sep(":").identifier(reserved);[0m
@@ -443,6 +446,16 @@
 [0m[[31merror[0m] [0m                           ^[0m
 [0m[[31merror[0m] [0m  シンボル:   クラス VarStmnt[0m
 [0m[[31merror[0m] [0m  場所: クラス TypedParser[0m
-[0m[[31merror[0m] [0mエラー93個[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/VariableParser.java:6: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser local = rule(VariableStmnt.class).sep("variable").identifier(Name.class, reserved);[0m
+[0m[[31merror[0m] [0m                                                                        ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス Name[0m
+[0m[[31merror[0m] [0m  場所: クラス VariableParser[0m
+[0m[[31merror[0m] [0m/Users/everysick/Documents/program_impl/compiler_construction/src/main/java/VariableParser.java:6: エラー: シンボルを見つけられません[0m
+[0m[[31merror[0m] [0m    Parser local = rule(VariableStmnt.class).sep("variable").identifier(Name.class, reserved);[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m  シンボル:   クラス VariableStmnt[0m
+[0m[[31merror[0m] [0m  場所: クラス VariableParser[0m
+[0m[[31merror[0m] [0mエラー96個[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
 [0m[[31merror[0m] [0m(compile:[31mcompile[0m) javac returned nonzero exit code[0m
