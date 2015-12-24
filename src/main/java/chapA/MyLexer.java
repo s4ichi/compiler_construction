@@ -51,7 +51,7 @@ public class MyLexer {
         } else if (c == '/') {
             c = getChar();
             if(c == '/') {
-                while(getChar() != EOL);
+                while(getChar() != '\n');
                 return read();
             } else {
                 ungetChar(c);
