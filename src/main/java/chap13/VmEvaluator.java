@@ -35,6 +35,7 @@ import stone.ast.*;
             Code code = vmenv.code();
             int entry = code.position();
             compile(code);
+            code.dump(entry);
             ((EnvEx3)env).putNew(funcName, new VmFunction(parameters(), body(),
                                                           env, entry));
             return funcName;
@@ -116,7 +117,7 @@ import stone.ast.*;
         public void compile(Code c) {
             ((ASTreeVmEx)operand()).compile(c);
             c.add(NEG);
-            c.add(encodeRegister(c.nextReg - 1));   
+            c.add(encodeRegister(c.nextReg - 1));
         }
     }
     @Reviser public static class BinaryEx extends BinaryExpr {
@@ -204,7 +205,7 @@ import stone.ast.*;
                 throw new StoneException("bad number of arguments", this);
             int num = 0;
             for (ASTree a: this)
-                ((ParamsEx2)params).eval(env, num++, ((ASTreeEx)a).eval(env)); 
+                ((ParamsEx2)params).eval(env, num++, ((ASTreeEx)a).eval(env));
             StoneVM svm = ((EnvEx3)env).stoneVM();
             svm.run(func.entry());
             return svm.stack()[0];
