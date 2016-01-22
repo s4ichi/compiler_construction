@@ -1,0 +1,247 @@
+プログラム言語処理 最終課題
+
+締め切り：2015 12/25 11:25
+学籍番号：201411371
+氏名：齋地 崇大
+課題番号：1
+
+=====================================
+
+・方針
+chap13に実装されているStoneVMのコードを改良し、コンパイル結果のニーモニックを出力する。
+chap13内のコード片より、chap13/VmEvaluator.java内にある各構文について出力をすることで変数名なども取得できるが、
+chap13/VmEvaluator.javaへの変更が行われたときや構文が追加された際もニーモニック出力のコードを編集する必要があるため冗長である。
+よってchap13/VmEvaluator.javaより変換された後にある、Codeクラスにて扱われているバイト列をニーモニックの規則に沿ってパースする。
+
+
+・実装方法
+今回のコンパイラはStoneの関数のみコンパイルをするため、最上階層でcompileメソッドを呼んでいるのはDefStmntVmExクラスである。
+よって、chap13/VmEvaluator.java内のDefStmntVmExクラスにあるevalメソッドに変更を加える。
+具体的には、compileメソッドが呼ばれ処理が終了すると、Codeクラスのインスタンスであるcodeへバイト列が格納される。
+そのため、コンパイルされたバイト列を出力するにはcompile(code);の行の真下へ出力する処理を記述する。
+今回はCodeクラスのインスタンスメソッドにdump(int pos)を定義し、pos位置からのバイト列を出力するようにした。
+Codeクラス内では、バイト列をそれぞれニーモニックの規則にそって先頭からパースする処理を記述した。
+また、ifzeroやgotoを用いたの飛び先はオフセットで表現してある。(負であればそれより前の行、正であればそれより後の行)
+
+
+・変更したファイル
+chap13/VmEvaluator.java
+chap13/Code.java
+
+
+・未変更のファイル
+chap13/HeapMemory.java
+chap13/Opcode.java
+chap13/StoneVM.java
+chap13/StoneVMEnv.java
+chap13/VmFunction.java
+chap13/VmInterpreter.java
+chap13/VmRunner.java
+
+
+・追加したファイル
+無し
+
+
+・テスト入力に対する出力例
+
+①
+------------input------------
+def sum() {
+  n = 0
+  i = 0
+  while i < 10 {
+    n = n + i
+    i = i + 1
+  }
+  n
+}
+------------------------------
+
+------------output-----------
+0000: save 2
+0002: bconst 0 r0
+0005: move r0 0
+0008: bconst 0 r0
+0011: move r0 1
+0014: bconst 0 r0
+0017: move 1 r1
+0020: bconst 10 r2
+0023: less r1 r2
+0026: ifzero r1 31
+0030: move 0 r0
+0033: move 1 r1
+0036: add r0 r1
+0039: move r0 0
+0042: move 1 r0
+0045: bconst 1 r1
+0048: add r0 r1
+0051: move r0 1
+0054: goto -37
+0057: move 0 r0
+0060: move r0 0
+0063: restore 2
+0065: return
+------------------------------
+
+
+②
+------------input------------
+def calc(a,b,c,d) {
+  a = 4 * 5
+  b = a / 5
+  c = 23 + 2
+  d = 45 - 17
+  e = 100000000 + 32767
+
+  if d == (45- 17) {
+    d = "abc"
+    c = "def"
+  }
+  d
+}
+------------------------------
+
+------------output-----------
+0000: save 5
+0002: bconst 4 r0
+0005: bconst 5 r1
+0008: mul r0 r1
+0011: move r0 0
+0014: move 0 r0
+0017: bconst 5 r1
+0020: div r0 r1
+0023: move r0 1
+0026: bconst 23 r0
+0029: bconst 2 r1
+0032: add r0 r1
+0035: move r0 2
+0038: bconst 45 r0
+0041: bconst 17 r1
+0044: sub r0 r1
+0047: move r0 3
+0050: iconst 100000000 r0
+0056: iconst 32767 r1
+0062: add r0 r1
+0065: move r0 4
+0068: move 3 r0
+0071: bconst 45 r1
+0074: bconst 17 r2
+0077: sub r1 r2
+0080: equal r0 r1
+0083: ifzero r0 21
+0087: sconst 0 r0
+0091: move r0 3
+0094: sconst 1 r0
+0098: move r0 2
+0101: goto 6
+0104: bconst 0 r0
+0107: move 3 r0
+0110: move r0 0
+0113: restore 5
+0115: return
+------------------------------
+
+
+③
+------------input------------
+def rec_while() {
+  n = 0
+  i = 0
+  while i < 10 {
+    n = n + i
+    i = i + 1
+    while (n/2) == 0 {
+      n = n - 1
+    }
+  }
+  n
+}
+------------------------------
+
+------------output-----------
+0000: save 2
+0002: bconst 0 r0
+0005: move r0 0
+0008: bconst 0 r0
+0011: move r0 1
+0014: bconst 0 r0
+0017: move 1 r1
+0020: bconst 10 r2
+0023: less r1 r2
+0026: ifzero r1 68
+0030: move 0 r0
+0033: move 1 r1
+0036: add r0 r1
+0039: move r0 0
+0042: move 1 r0
+0045: bconst 1 r1
+0048: add r0 r1
+0051: move r0 1
+0054: bconst 0 r0
+0057: move 0 r1
+0060: bconst 2 r2
+0063: div r1 r2
+0066: bconst 0 r2
+0069: equal r1 r2
+0072: ifzero r1 19
+0076: move 0 r0
+0079: bconst 1 r1
+0082: sub r0 r1
+0085: move r0 0
+0088: goto -31
+0091: goto -74
+0094: move 0 r0
+0097: move r0 0
+0100: restore 2
+0102: return
+------------------------------
+
+
+
+④
+------------input------------
+def if_else() {
+  i = 0
+  n = 5
+  if (i % 2) > 0 {
+    n = n * 2
+  } else {
+    n = (n*2)+4
+  }
+  n
+}
+------------------------------
+
+------------output-----------
+0000: save 2
+0002: bconst 0 r0
+0005: move r0 0
+0008: bconst 5 r0
+0011: move r0 1
+0014: move 0 r0
+0017: bconst 2 r1
+0020: rem r0 r1
+0023: bconst 0 r1
+0026: more r0 r1
+0029: ifzero r0 19
+0033: move 1 r0
+0036: bconst 2 r1
+0039: mul r0 r1
+0042: move r0 1
+0045: goto 21
+0048: move 1 r0
+0051: bconst 2 r1
+0054: mul r0 r1
+0057: bconst 4 r1
+0060: add r0 r1
+0063: move r0 1
+0066: move 1 r0
+0069: move r0 0
+0072: restore 2
+0074: return
+------------------------------
+
+
+
+
